@@ -12,7 +12,7 @@ test.describe('SauceDemo tests', () => {
     await page.getByPlaceholder('Password').fill('secret_sauce');
     await page.getByRole('button', { name: 'Login' }).click();
 
-    await expect(page.locator('[data-test="error"]'), 'Error should appear for locked out user').toBeVisible();
+    await expect(page.locator('[data-test="error"]'), 'Epic sadface: Username and password do not match any user in this service').toBeVisible();
   });
 
   // Task 1 — Login (happy path)
@@ -85,7 +85,6 @@ test.describe('SauceDemo tests', () => {
     await page.screenshot({ path: 'cart-after-remove.png', fullPage: true });
 
     await expect(page.locator('[data-test="shopping-cart-badge"]'), 'Cart badge should show 1 after removing backpack').toHaveText('1');
-    page.pause();
     await expect(page.locator('[data-test="inventory-item-name"]')).toHaveText(['Sauce Labs Bike Light']);
   });
 
