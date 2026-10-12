@@ -16,9 +16,7 @@ test.describe("Login page", () => {                     // 2. Group of related t
   });
 });
 
-
 // in package.json:
-
 // "@playwright/test": "^1.63.0" - package, version 1.63.0
 // "@types/node": "^26.6.3"  - Playwright runs on Node.js, and TypeScript needs to understand things provided by Node.js
 
