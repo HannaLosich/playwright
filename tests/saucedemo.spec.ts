@@ -16,7 +16,7 @@ test.describe('SauceDemo tests', () => {
   });
 
   // Task 1 — Login (happy path)
-  test('Task 1 — Login (happy path)', async ({ page }) => {
+  test.only('Task 1 — Login (happy path)', async ({ page }) => {
     await page.getByPlaceholder('Username').fill('standard_user');
     await page.getByPlaceholder('Password').fill('secret_sauce');
 
