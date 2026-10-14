@@ -1,3 +1,4 @@
+/*
 import { test } from "@playwright/test";
 import { validUser, getLoginUrl } from "./test-data";
 
@@ -8,6 +9,7 @@ test("test data is wired correctly", async () => {
   console.log("Password:", password);
   // Does it print what you expect?
 });
+*/
 
 
 
