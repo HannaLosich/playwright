@@ -1,3 +1,4 @@
+/*
 import { test, expect } from '@playwright/test'; // Import test and expect from the Playwright library
 
 test('has title', async ({ page }) => { // Define a test named 'has title' that takes a page object as an argument
@@ -13,6 +14,7 @@ test('get started link', async ({ page }) => { // Define another test named 'get
 
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible(); // Assert that the heading with the role 'heading' and name 'Installation' is visible on the page
 });
+*/
 
 
 

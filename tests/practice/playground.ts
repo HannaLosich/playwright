@@ -1,3 +1,4 @@
+/*
 //const retries: number = "five";  // What does VS Code show?
 // retries - is not assignable to type 'number'
 
@@ -58,3 +59,5 @@ function formatPrice(price: number): string {
 
 // Usage
 console.log(formatPrice(product2.price)); // "$9.99"
+
+*/

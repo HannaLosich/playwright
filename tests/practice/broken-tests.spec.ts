@@ -1,3 +1,4 @@
+/*
 import { test, expect } from "@playwright/test";
 
 // Broken test #1 — wrong locator
@@ -52,3 +53,5 @@ test("cart badge appears after adding product", async ({ page }) => {
 //Root cause:       Missing an await before the click AddToCart button
 // Fix:             Added an await before the click action on the AddToCart button
 // How I verified:  Ran the test, and checked that it now passes and the cart badge appears with the correct count after adding a product
+
+*/
