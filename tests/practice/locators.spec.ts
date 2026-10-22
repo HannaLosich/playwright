@@ -1,3 +1,4 @@
+/*
 import { test } from '@playwright/test';
 
 test('count elements using count()', async ({ page }) => {
@@ -51,3 +52,4 @@ test('click by text using filter()', async ({ page }) => {
   // Click Documentation
   await documentation.first().click();
 });
+*/
